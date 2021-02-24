@@ -1,0 +1,68 @@
+body {
+	background-image : url("images/bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	color : white;
+}
+
+#p_text {
+	color : white;
+}
+
+.skills img:hover {
+	transform: rotate(12deg);
+    transition: all 0.1s ease-in-out 0s;
+}
+
+.accueil {
+	padding : 300px;
+}
+
+#wrapper1 .html_text {
+color:green;
+font-size:18px;
+visibility:hidden;
+padding-right:10px;
+}
+
+#wrapper1:hover .html_text {
+visibility:visible;
+}
+
+#wrapper2 .css_text {
+color:green;
+font-size:18px;
+visibility:hidden;
+padding-right:10px;
+}
+
+#wrapper2:hover .css_text {
+visibility:visible;
+}
+
+#wrapper3 .jquery_text {
+color:green;
+font-size:18px;
+visibility:hidden;
+padding-right:10px;
+}
+
+#wrapper3:hover .jquery_text {
+visibility:visible;
+}
+
+#wrapper4 .cpp_text {
+color:green;
+font-size:18px;
+visibility:hidden;
+padding-right:10px;
+}
+
+#wrapper4:hover .cpp_text {
+visibility:visible;
+}
+
+.projets{
+color:black;
+}
